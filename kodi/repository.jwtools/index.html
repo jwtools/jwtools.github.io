@@ -2,7 +2,7 @@
 layout: default
 title: Index of /kodi
 ---
-<h1>{% title %}</h1>
+<h1>{% page.title %}</h1>
 <pre>
 {% for f in site.static_files %}
   {% if f.path contains '/addons' and f.extname == '.zip' %}
