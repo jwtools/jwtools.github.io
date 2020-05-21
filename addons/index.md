@@ -1,11 +1,4 @@
 ---
 layout: default
 ---
-<h1>Index of {{ page.dir }}</h1>
-<pre>
-{% for f in site.static_files %}
-  {% if f.path contains {{page.dir }} and f.extname == '.zip' %}
-    <a href="{{ site.baseurl | escape }}{{ f.path | escape }}">{{ f.path | escape }}</a>
-  {% endif %}
-{% endfor %}
-</pre>
+{% include listing.html %}
