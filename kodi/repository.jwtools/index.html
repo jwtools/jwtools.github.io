@@ -1,12 +1,12 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
-<HTML>
-<HEAD>
-<TITLE>Index of repository.jwtools</TITLE>
-</HEAD>
-<BODY"><H1>Index of /repository.jwtools</H1>
-<PRE><IMG SRC="/icons/blank.gif" ALT="     "> <A HREF="?N=D">Name</A>                    <A HREF="?M=A">Last modified</A>       <A HREF="?S=A">Size</A>  <A HREF="?D=A">Description</A>
-<HR>
-<IMG SRC="/icons/back.gif" ALT="[DIR]"> <A HREF="/">Parent Directory</A>        14-Feb-2019 22:33      -
-<IMG SRC="/icons/compressed.gif" ALT="[   ]"> <A HREF="repository.jwtools-0.0.4.zip">repository.jwtools-0.0.4.zip</A> 21-Oct-2019 20:32   369k
-</PRE>
-</BODY></HTML>
+---
+layout: default
+title: Index of /kodi
+---
+<h1>{% title %}</h1>
+<pre>
+{% for f in site.static_files %}
+  {% if f.path contains '/addons' and f.extname == '.zip' %}
+    <a href="{{ site.baseurl | escape }}{{ f.path | escape }}">{{ f.path | escape }}</a>
+  {% endif %}
+{% endfor %}
+</pre>
