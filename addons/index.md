@@ -1,10 +1,12 @@
 ---
 layout: default
-title: Index
+title: Index of /addons
 ---
 <h1>Index of /addons</h1>
+<pre>
 {% for f in site.static_files %}
   {% if f.path contains '/addons' and f.extname == '.zip' %}
-    <p><a href="{{ site.baseurl | escape }}{{ f.path | escape }}">{{ f.path | escape }}</a></p>
+    <a href="{{ site.baseurl | escape }}{{ f.path | escape }}">{{ f.path | escape }}</a>
   {% endif %}
 {% endfor %}
+</pre>
