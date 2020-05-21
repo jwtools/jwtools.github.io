@@ -1,9 +1,9 @@
 <h1>Index of {{ page.dir }}</h1>
 <pre>
-  <img src="/icons/back.gif" ALT="[DIR]" /><a href="..">Back</a>
+  <img src="/icons/back.gif" ALT="[DIR]" /> <a href="..">Back</a>
 {% for f in site.static_files %}
   {% if f.path contains {{page.dir }} and f.extname == '.zip' %}
-    <img src="/icons/compressed.gif" alt="[   ]" /><a href="{{ site.baseurl | escape }}{{ f.path | escape }}">{{ f.path | escape }}</a>
+    <img src="/icons/compressed.gif" alt="[   ]" /> <a href="{{ site.baseurl | escape }}{{ f.path | escape }}">{{ f.path | escape }}</a>
   {% endif %}
 {% endfor %}
 </pre>
