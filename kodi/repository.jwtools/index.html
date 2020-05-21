@@ -5,7 +5,7 @@ title: Index of {{ page.dir | escape }}
 <h1>{{ page.title }}</h1>
 <pre>
 {% for f in site.static_files %}
-  {% if f.path contains '/addons' and f.extname == '.zip' %}
+  {% if f.path contains {{page.dir }} and f.extname == '.zip' %}
     <a href="{{ site.baseurl | escape }}{{ f.path | escape }}">{{ f.path | escape }}</a>
   {% endif %}
 {% endfor %}
