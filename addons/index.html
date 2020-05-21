@@ -1,15 +1,10 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
-<HTML>
-<HEAD>
-<TITLE>Index of /addons</TITLE>
-</HEAD>
-<BODY">>
-<H1>Index of /addons</H1>
-<PRE><IMG SRC="/icons/blank.gif" ALT="     "> <A HREF="?N=D">Name</A>                    <A HREF="?M=A">Last modified</A>       <A HREF="?S=A">Size</A>  <A HREF="?D=A">Description</A>
-<HR>
-<IMG SRC="/icons/back.gif" ALT="[DIR]"> <A HREF="/">Parent Directory</A>        14-Feb-2019 22:33      -  
-<IMG SRC="/icons/compressed.gif" ALT="[   ]"> <A HREF="repository.vstream-0.0.3.zip">repository.vstream-0..&gt;</A> 21-Oct-2019 20:32   369k  
-<IMG SRC="/icons/compressed.gif" ALT="[   ]"> <A HREF="repository.zachmorris-1.0.0.zip">repository.zachmorri..&gt;</A> 01-Nov-2019 22:32   190k  
-</PRE><HR>
-</BODY></HTML>
-
+---
+layout: default
+title: Index
+---
+  <h1>Index of {% page.dir %}</h1>
+    {% for f in site.static_files %}
+      {% if f.path contains '/addons' and f.extname == '.zip' %}
+        <p><a href="{{ site.baseurl | escape }}{{ f.path | escape }}">{{ f.path | escape }}</a></p>
+      {% endif %}
+    {% endfor %}
