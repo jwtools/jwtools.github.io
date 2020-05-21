@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Index of {% page.dir %}
+title: Index
 ---
   <h1>Index of {% page.dir %}</h1>
     {% for f in site.static_files %}
