@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.jw.tv" name="JW Media" version="0.1.20" provider-name="JWTools">
+<addon id="plugin.jw.tv" name="JW Media" version="0.1.21" provider-name="JWTools">
     <requires>
         <import addon="script.module.six" />
         <import addon="script.module.routing" version="0.2.1"/>
@@ -31,8 +31,8 @@
             <fanart>resources/images/fanart3.png</fanart>
         </assets>
         <news>
-            v0.1.20 (2020-05-29)
-            -Fixing videos
+            v0.1.21 (2020-05-29)
+            -Fixing thumbnails
         </news>
     </extension>
 </addon>
