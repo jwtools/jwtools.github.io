@@ -40,9 +40,9 @@
         </requires>
         <extension name="JWTools Repo" point="xbmc.addon.repository">
         <dir>
-	    <info compressed="false">https://raw.githubusercontent.com/jwtools/jwtools.github.io/master/kodi/addons.xml</info>
-	    <checksum>https://raw.githubusercontent.com/jwtools/jwtools.github.io/master/kodi/addons.xml.md5</checksum>
-	    <datadir zip="true">https://raw.githubusercontent.com/jwtools/jwtools.github.io/master/kodi/</datadir>
+            <info compressed="false">https://raw.githubusercontent.com/jwtools/jwtools.github.io/master/kodi/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/jwtools/jwtools.github.io/master/kodi/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/jwtools/jwtools.github.io/master/kodi/</datadir>
         </dir>
         </extension>
         <extension point="xbmc.addon.metadata">
