@@ -5,9 +5,9 @@
         </requires>
         <extension point="xbmc.addon.repository" name="JWTools Repo">
         <dir>
-            <info compressed="true">https://raw.githubusercontent.com/jwtools/kodi/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/jwtools/kodi/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/jwtools/kodi/</datadir>
+            <info compressed="true">https://raw.githubusercontent.com/jwtools/jwtools.github.io/master/kodi/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/jwtools/jwtools.github.io/master/kodi/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/jwtools/jwtools.github.io/master/kodi/</datadir>
         </dir>
         </extension>
         <extension point="xbmc.addon.metadata">
