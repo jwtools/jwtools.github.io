@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <setting id="debug" type="bool" label="32001" default="false" visible="false" enabled="false" />
+    <setting type="sep"/>
+    <setting id="language" type="text" label="32002" default="E" visible="false" />
+    <setting id="locale" type="text" label="32004" default="en" visible="false" enabled="false" />
+    <setting id="quality" type="select" label="32003" values="720p|480p|360p|240p|144p" default="720p" />
+    <setting type="action" label="32002" action="Container.Update(plugin://plugin.jw.tv/languages,true)" option="close" />
+    <setting id="args" type="text" label="32005" default="" visible="false" enabled="false" />
+    <setting id="cache" type="number" label="32006" value="6" default="24" />
+</settings>
+
