@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addons><addon id="plugin.jw.tv" name="JW Media" provider-name="JWTools" version="1.0.0">
+<addons><addon id="plugin.jw.tv" name="JW Media" version="1.0.1" provider-name="JWTools">
     <requires>
         <import addon="script.module.six" />
         <import addon="script.module.routing" version="0.2.1" />
@@ -9,7 +9,7 @@
         <import addon="script.module.pyxbmct" version="1.3.0" />
         <import addon="script.module.certifi" version="2019.3.9" />
     </requires>
-    <extension library="main.py" point="xbmc.python.pluginsource">
+    <extension point="xbmc.python.pluginsource" library="main.py">
         <provides>audio video</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
@@ -20,7 +20,7 @@
         <license>Apache-2.0</license>
         <forum />
         <website>https://www.jw.org</website>
-        <email>jwtools@tutanota.com</email>
+        <email>jwtools@pm.me</email>
         <source />
         <disclaimer />
         <assets>
@@ -30,15 +30,15 @@
             <fanart>resources/images/fanart3.png</fanart>
         </assets>
         <news>
-            v1.0.0 (2020-07-14)
+            v1.0.1 (2022-01-23)
             -Fixing encoding
         </news>
     </extension>
-</addon><addon id="repository.jwtools" name="JWTools Repo" provider-name="JWTools" version="0.0.4">
+</addon><addon id="repository.jwtools" name="JWTools Repo" version="0.0.4" provider-name="JWTools">
         <requires>
             <import addon="xbmc.addon" version="12.0.0" />
         </requires>
-        <extension name="JWTools Repo" point="xbmc.addon.repository">
+        <extension point="xbmc.addon.repository" name="JWTools Repo">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/jwtools/jwtools.github.io/master/kodi/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/jwtools/jwtools.github.io/master/kodi/addons.xml.md5</checksum>
