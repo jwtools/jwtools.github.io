@@ -35,24 +35,35 @@
         </news>
     </extension>
 </addon><addon id="repository.jwtools" name="JWTools Repo" version="1.0.0" provider-name="JWTools">
-        <requires>
-            <import addon="xbmc.addon" version="12.0.0" />
-        </requires>
-        <extension point="xbmc.addon.repository" name="JWTools Repo">
-            <info compressed="false">https://raw.githubusercontent.com/jwtools/jwtools.github.io/master/kodi/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/jwtools/jwtools.github.io/master/kodi/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/jwtools/jwtools.github.io/master/kodi/</datadir>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary lang="en">Repo for JWTools addons</summary>
-            <description lang="en">JWTools repo</description>
-            <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon. The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation. This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works</disclaimer>
-            <platform>all</platform>
-            <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+    <requires>
+        <import addon="xbmc.addon" version="12.0.0" />
+    </requires>
+    <extension point="xbmc.addon.repository" name="JWTools Repo">
+        <dir>
+            <info compressed="false">
+                https://raw.githubusercontent.com/jwtools/jwtools.github.io/master/kodi/addons.xml</info>
+            <checksum>
+                https://raw.githubusercontent.com/jwtools/jwtools.github.io/master/kodi/addons.xml.md5</checksum>
+            <datadir zip="true">
+                https://raw.githubusercontent.com/jwtools/jwtools.github.io/master/kodi/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Repo for JWTools addons</summary>
+        <description lang="en">JWTools repo</description>
+        <disclaimer lang="en">The author is not responsible for the use of this addon. The author is
+            not responsible for the content found using this addon. The author does not host or own
+            any content found within this addon. The author is in no way affiliated with Kodi, Team
+            Kodi, or the XBMC Foundation. This is a Non-profit resource, organized solely for
+            educational purposes which is protected under the Fair-Use doctrine of the Copyright
+            Act, Specifically section 107, which does promote freedom of expression, by permitting
+            the unlicensed use of copyright-protected works</disclaimer>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
         <assets>
             <icon>resources/icon.png</icon>
             <fanart>resources/fanart.png</fanart>
         </assets>
         <news />
-        </extension>
-    </addon></addons>
+    </extension>
+</addon></addons>
