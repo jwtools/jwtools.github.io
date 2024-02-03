@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.jw.tv" name="JW Media" version="1.0.1" provider-name="JWTools">
+<addon id="plugin.jw.tv" name="JW Media" version="1.0.2" provider-name="JWTools">
     <requires>
         <import addon="script.module.six" />
         <import addon="script.module.routing" version="0.2.1"/>
@@ -30,8 +30,8 @@
             <fanart>resources/images/fanart3.png</fanart>
         </assets>
         <news>
-            v1.0.1 (2022-01-23)
-            -Fixing encoding
+            v1.0.2 (2024-02-03)
+            -Fixing xbmcvfs
         </news>
     </extension>
 </addon>
